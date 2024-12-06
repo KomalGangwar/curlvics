@@ -8,6 +8,7 @@ const App = () => {
     <div className='App'>
       <h1>Send Mail</h1>
       <textarea placeholder='Write your message here...' value={message} onChange={(e)=>setMessage(e.target.value)} rows={5}/>
+      <br></br>
       <button onClick={SendMail}>Send Mail</button>
       {status && <p>{status}</p>}
     </div>

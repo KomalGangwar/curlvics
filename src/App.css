@@ -1,1 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(193, 222, 230);
+}
+.App{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+textarea {
+  width: 80%;
+  height: 25vh;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+}
 
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #337ee0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #6094cf;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: bold;
+}

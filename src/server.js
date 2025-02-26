@@ -25,7 +25,7 @@ app.post("/send-mail", async (req, res) => {
 
   const mailOptions = {
     from: "kgangwar164@gmail.com", // Replace with your email
-    to: "curlvicssolutions@gmail.com", // Replace with the recipient's email
+    to: "komalgangwar2004@gmail.com", // Replace with the recipient's email
     subject: "Curlvics Technology notification alert",
     text: message,
   };
